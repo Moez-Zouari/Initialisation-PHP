@@ -9,11 +9,14 @@
 </head>
 
 <body>
+    <a href="traitement.php?nom=Moez&prenom=Zouari">Afficher mon nom et prenom</a>
     <form action="traitement.php" method="post">
 
         <label for="nom">Votre Nom</label>
         <input type="text" name="nom" id="nom" required>
-        <button type="submit">Valider</button>
+        <label for="nom">Votre Prénom</label>
+        <input type="text" name="prenom" id="prenom" required>
+        <button type="submit" name="valider">Valider</button>
     </form>
 </body>
 
