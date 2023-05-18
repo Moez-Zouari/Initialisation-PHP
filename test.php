@@ -40,7 +40,9 @@
         return $resultat;
     }
     echo "Multiplication de " . $GLOBALS['b'] . " * 3 : " . multip(3) . "<br>";
-    echo "Calcul TTC : " . calculttc(1000);
+    echo "Calcul TTC : " . calculttc(1000) . "<br>";
+    echo "Server : " . $_SERVER['HTTP_HOST'] . "<br>";
+    phpinfo();
     ?>
 </body>
 
